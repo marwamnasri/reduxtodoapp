@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+.r1{
+  text-decoration: line-through;
+  list-style: none;
+  background-color: rgb(211, 208, 208);
+    width: 400px;
+    height: 45px;
+    margin-left: 447px;
+    margin-top: 3px;
+    color:black;
+    position: relative;
+    font-family: monospace;
+    
+}
+.r2{
+  text-decoration: none;
+    list-style: none;
+    background-color: rgb(10, 130, 141);
+    width: 400px;
+    height: 45px;
+    margin-left: 447px;
+    margin-top: 3px;
+    color: white;
+    position: relative;
+    font-family: monospace;
+}
+.r2 span{
+  margin-left: 30px;
+    position: absolute;
+    margin-top: 9px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.r1 span{
+  margin-left: 30px;
+    position: absolute;
+    margin-top: 9px;
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: line-through;
+}
+.btn1{
+  margin-left: 300px;
+    background-color: red;
+    margin-top: 6px;
+}
+.r1 img{
+  width: 25px;
+    height: 26px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.r2 img{
+  width: 25px;
+    height: 26px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.titre{
   color: white;
-}
 
-.App-link {
-  color: #61dafb;
+  background-color:rgb(10, 130, 141);;
+  width: 400px;
+  font-family: monospace;
+  
+  text-align: center;
+  margin:0px;
+  border-radius: 5px;
 }
+.in input{
+  position: absolute;
+  width: 344px;
+  height: 30px;
+  margin-top: -21px;
+  font-family: monospace;
+}
+.in button{
+  margin-left: 349px;
+    position: absolute;
+    margin-top: -21px;
+    height: 36px;
+    width: 51px;
+    color: white;
+    background-color: green;
+    font-size: 29px;
+}
+.bloc{
+  margin-left: 447px;
+}
+.btn{
+  margin-top: 5px;
+    position: absolute;
+    margin-left: -114px;
+    height: 36px;
+    width: 73px;
+    background-color: green;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.bloc2{
+  margin-top: 40px;
+}
+.in{
+  margin-top: 23px;
 }
